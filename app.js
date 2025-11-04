@@ -1,3 +1,23 @@
+let userPlace = prompt("Dream Vacation Place:");
+let userTransport = prompt("Mode of Transportation");
+let userFood = prompt("Favorite Food");
+let userCandy = prompt("Favorite Candy");
+let userStole = prompt("Something that is Valuable (Jewelry, Money, Diamonds, etc)");
+let userEnemy = prompt("Your Enemy");
+let userWeapon = prompt("Weapon (Banana, Freeze Ray, Lazer Gun, etc.");
+let userAdjective = prompt("Adjective");
+let userName = prompt("Name");
+let userTime = prompt("Time");
+
+
+
+
+
+
+
+
+
+
 /* 
   Mad Lib Starter (Beginner JS)
 
@@ -30,7 +50,8 @@
    - Keep it fun! Make sure your story uses ALL the variables you collected.
 */
 
-// let story = `Write your story here using ${_____} and ${_____} etc.`;
+let story = `Today when I woke up Kevin and Bob told me I was going to ${userPlace} for our next heist we took the ${userTransport} to meet up with Gru. When we arrived we used ${userFood} to attack the guards, and used ${userCandy} to cover the cameras. After we broke into the room to steal the ${userStole}. But while we tried to steal ${userStole} ${userEnemy} was also trying to steal ${userStole}. But we were able to escape using ${userWeapon} to fight ${userEnemy} off. We ran to our next escape vehicle which is the ${userAdjective} ${userName} mobile. Lucklally we made it home safe at ${userTime} with ${userStole}! `
+;
 
 /* 3) DISPLAY THE STORY ON THE PAGE
    - Select the element with id "madlib-output" using document.getElementById(...)
@@ -38,7 +59,9 @@
    - Optional: include simple <strong> or <em> tags inside your story string for emphasis.
 */
 
-// document.getElementById("madlib-output").innerHTML = /* your story variable */ ;
+
+
+document.getElementById("madlib-output").innerHTML = story ;
 
 /* 4) OPTIONAL POLISH
    - Add a title or intro line at the top of your story (still using the same innerHTML).
