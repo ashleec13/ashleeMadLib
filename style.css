@@ -10,14 +10,40 @@
 #madlib-output {
   min-height: 6rem; /* keeps the card from collapsing before story appears */
   line-height: 1.6;
-  font-size: 1.05rem;
+  font-size: 1.05em; /* use em so this scales with parent (main) font-size) */
 }
 
 body{
   background-color: #F4E409;
   color:#1D3461;
 }
+main {
+  background-color: #f2f2f2; /* light neutral background for <main>; changeable */
+  font-family: "acid-green", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 3vh;
+}
 
-div{
-  background-color:#FCF75E;
+.description {
+  font-size: 2vh;
+  margin-bottom: 1rem;
+  background-color: #0A75BC;
+  color:#FCE029;
+
+}
+
+header {
+  background-color: #0A75BC;
+  color: #FCE029;
+}
+
+footer {
+  background-color: #0A75BC;
+  color: #FCE029;
+}
+
+/* ensure any muted/text-muted content in footer uses the visible footer text color */
+footer .text-muted {
+  color: #FCE029;
 }
