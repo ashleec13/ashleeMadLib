@@ -16,9 +16,12 @@
 body{
   background-color: #F4E409;
   color:#1D3461;
+    font-family: "acid-green", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 3vh;
 }
 main {
-  background-color: #f2f2f2; /* light neutral background for <main>; changeable */
   font-family: "acid-green", sans-serif;
   font-weight: 400;
   font-style: normal;
@@ -30,6 +33,10 @@ main {
   margin-bottom: 1rem;
   background-color: #0A75BC;
   color:#FCE029;
+    font-family: "acid-green", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 3vh;
 
 }
 
