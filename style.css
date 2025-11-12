@@ -5,25 +5,38 @@
 
 .card {
   border-radius: var(--card-radius);
+  font-family: "caraque-melted", sans-serif;
+  font-weight: 500;
+  font-style: normal;
 }
 
 #madlib-output {
-  min-height: 6rem; /* keeps the card from collapsing before story appears */
+  min-height: 6rem;
+  /* keeps the card from collapsing before story appears */
   line-height: 1.6;
-  font-size: 1.05em; /* use em so this scales with parent (main) font-size) */
+  font-size: 1.05em;
+  /* use em so this scales with parent (main) font-size) */
 }
 
-body{
+body {
   background-color: #F4E409;
-  color:#1D3461;
-    font-family: "acid-green", sans-serif;
+  color: #1D3461;
+  font-family: "acid-green", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 4vh;
+}
+
+main {
+  font-family: "acid-green", sans-serif;
   font-weight: 400;
   font-style: normal;
   font-size: 3vh;
 }
-main {
-  font-family: "acid-green", sans-serif;
-  font-weight: 400;
+
+p {
+  font-family: "caraque-melted", sans-serif;
+  font-weight: 500;
   font-style: normal;
   font-size: 3vh;
 }
@@ -32,8 +45,8 @@ main {
   font-size: 2vh;
   margin-bottom: 1rem;
   background-color: #0A75BC;
-  color:#FCE029;
-    font-family: "acid-green", sans-serif;
+  color: #FCE029;
+  font-family: "acid-green", sans-serif;
   font-weight: 400;
   font-style: normal;
   font-size: 3vh;
@@ -53,4 +66,8 @@ footer {
 /* ensure any muted/text-muted content in footer uses the visible footer text color */
 footer .text-muted {
   color: #FCE029;
+}
+
+.card, .card * {
+  font-family: "caraque-melted", sans-serif;
 }
